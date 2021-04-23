@@ -3,13 +3,14 @@ import axios from "axios";
 import "./App.css";
 import RealCard from "./RealCard";
 
+
 function App() {
   const [datas, setDatas] = useState([]);
   const [finalResult, setFinalResult] = useState([]);
   const [search, setSearch] = useState("");
   const [tag, setTag] = useState([]);
 
-  const url = "https://www.hatchways.io/api/assessment/studentss";
+  const url = "https://www.hatchways.io/api/assessment/students";
 
   const getData = async () => {
     await axios

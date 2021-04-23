@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import "./RealCard.css";
+import AddIcon from '@material-ui/icons/Add';
+import RemoveIcon from '@material-ui/icons/Remove';
 
 const RealCard = ({ data }) => {
   const [newTag, setNewTag] = useState("");
@@ -35,9 +37,12 @@ const RealCard = ({ data }) => {
           <h1>
             {data.firstName.toUpperCase()} {data.lastName.toUpperCase()}
           </h1>
-          <button onClick={handleClick}>
-            {click ? "Show Less" : "Show More"}
-          </button>
+          {/* <button onClick={handleClick}> */}
+          <div className='sign' onClick={handleClick}>
+
+            {click ? <RemoveIcon/> : <AddIcon/>}
+          </div>
+          {/* </button> */}
         </div>
         <p>Email: {data.email}</p>
         <p>Company: {data.company}</p>

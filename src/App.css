@@ -1,6 +1,7 @@
 input {
   height: 50px;
-  width: 100%;
+  width: -webkit-fill-available;
+  padding-left: 14px;
   border: none;
   border-bottom: 1px solid black;
   font-size: 20px;
