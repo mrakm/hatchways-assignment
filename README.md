@@ -22,11 +22,14 @@ provide feedback on it.
 The assessment is broken into 5 parts to make it easier to complete.
 You just need to submit one version with as much functionality as you can.
 
-## Public Repositories
-Do not post your solution to a public repository. We understand that you may want to
-share projects you have worked on, but many hours go into developing our tools so we
-can provide a fair skills evaluation. Posting this assessment online impacts our ability to
-judge candidates fairly and equitably
+# Deployed at
+
+[Click here](https://mrakm.github.io/hatchways-assignment)
+
+## screenshot
+![alt text](https://github.com/mrakm/hatchways-assignment/blob/main/image1.png?raw=true)
+![alt text](https://github.com/mrakm/hatchways-assignment/blob/main/image2.png?raw=true)
+
 
 
 
