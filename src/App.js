@@ -2,13 +2,18 @@ import { useState, useEffect } from "react";
 import axios from "axios";
 import "./App.css";
 import RealCard from "./RealCard";
-
+import Spinner from "./spinner";
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+</style>
 
 function App() {
   const [datas, setDatas] = useState([]);
   const [finalResult, setFinalResult] = useState([]);
   const [search, setSearch] = useState("");
   const [tag, setTag] = useState([]);
+  const [isloading, setIsloading] = useState(true);
+  
 
   const url = "https://www.hatchways.io/api/assessment/students";
 
@@ -59,6 +64,15 @@ function App() {
   useEffect(() => {
     getData();
   }, []);
+  
+  if(datas.length==0 ){
+
+    return (
+      
+    <Spinner/>
+    );
+  }
+
 
   return (
     <div className="App">
@@ -72,6 +86,10 @@ function App() {
         onChange={inputTagChange}
         placeholder="Search by Tag"
       />
+    
+
+
+     
       {tag.length === 0 && search.length === 0
         ? datas.map((data) => {
             return <RealCard search={search} tag={tag} data={data} />;
