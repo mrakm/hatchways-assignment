@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/hatchways-assignment/static/css/main.696afa37.chunk.css",
+    "main.js": "/hatchways-assignment/static/js/main.a0c7ceef.chunk.js",
+    "main.js.map": "/hatchways-assignment/static/js/main.a0c7ceef.chunk.js.map",
+    "runtime-main.js": "/hatchways-assignment/static/js/runtime-main.80139333.js",
+    "runtime-main.js.map": "/hatchways-assignment/static/js/runtime-main.80139333.js.map",
+    "static/js/2.20742b26.chunk.js": "/hatchways-assignment/static/js/2.20742b26.chunk.js",
+    "static/js/2.20742b26.chunk.js.map": "/hatchways-assignment/static/js/2.20742b26.chunk.js.map",
+    "static/js/3.6346b2b8.chunk.js": "/hatchways-assignment/static/js/3.6346b2b8.chunk.js",
+    "static/js/3.6346b2b8.chunk.js.map": "/hatchways-assignment/static/js/3.6346b2b8.chunk.js.map",
+    "index.html": "/hatchways-assignment/index.html",
+    "static/css/main.696afa37.chunk.css.map": "/hatchways-assignment/static/css/main.696afa37.chunk.css.map",
+    "static/js/2.20742b26.chunk.js.LICENSE.txt": "/hatchways-assignment/static/js/2.20742b26.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.80139333.js",
+    "static/js/2.20742b26.chunk.js",
+    "static/css/main.696afa37.chunk.css",
+    "static/js/main.a0c7ceef.chunk.js"
+  ]
+}
