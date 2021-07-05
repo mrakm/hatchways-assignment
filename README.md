@@ -1,3 +1,39 @@
+# About
+
+## Frontend Assessment - Student Profiles
+The goal of this assessment is to replicate the frontend application below as close as
+possible. You are allowed to use any frontend framework (React.js, Vue.js, etc.) or use
+plain Javascript, HTML, and CSS. We recommend using a frontend framework as the
+later parts of the assessment will be very difficult without it.
+If you notice something is not working (like the API, or any of the links in this document),
+please contact hello@hatchways.io.
+This assessment will be evaluated based on the following criteria:
+● Correctness: Is your solution complete and does it pass different test cases?
+● Code Organization, Readability, & Maintainability: Is your code easy to read and
+well organized?
+● Code Performance: Is your code efficient? Did you use appropriate data
+structures?
+● Best Practices: Did you utilize good programming practices (write unit tests,
+avoid anti-patterns)? Did you show a good grasp of your language/framework of
+choice?
+We use the following rubric to evaluate your submission. Please note that if your
+submission does not attempt to complete all of the requirements, we will be unable to
+provide feedback on it.
+The assessment is broken into 5 parts to make it easier to complete.
+You just need to submit one version with as much functionality as you can.
+
+## Public Repositories
+Do not post your solution to a public repository. We understand that you may want to
+share projects you have worked on, but many hours go into developing our tools so we
+can provide a fair skills evaluation. Posting this assessment online impacts our ability to
+judge candidates fairly and equitably
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
